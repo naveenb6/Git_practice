@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Git repository') {
             steps {
-                git branch: 'master', url: ' https://github.com/amitopenwriteup/cicd.git'
+                git branch: 'main', url: ' https://github.com/naveenb6/Git_practice.git'
             }
         }
         stage('Build Docker image') {
